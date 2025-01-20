@@ -4,7 +4,7 @@ function firstChar(text) {
 		return '';
 	}
 	let str=text.trim();
-	return str.charAt(0);
+	return str[0];
 }
 
 // Do not change the code below
