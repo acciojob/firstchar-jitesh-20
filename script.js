@@ -1,15 +1,16 @@
 function firstChar(text) {
   // your code here
-	// if(text==' ' || text=='' ){
-	// 	return '';
-	// }
-	let str=text.trim();
-	return str[0];
+	for (let char of text.trim()) {
+        if (char !== ' ') {
+            return char;
+        }
+    }
+    return '';
 }
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
-const text = prompt("Enter text:");
+// const text = prompt("Enter text:");
 alert(firstChar(text));
 
  
