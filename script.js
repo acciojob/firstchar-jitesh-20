@@ -1,6 +1,6 @@
 function firstChar(text) {
   // your code here
-	if(text === ' '){
+	if(text == ' ' || text == ''){
 		return '';
 	}
 	let str=text.trim();
@@ -9,7 +9,7 @@ function firstChar(text) {
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
 
  
